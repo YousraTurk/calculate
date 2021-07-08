@@ -1,0 +1,76 @@
+
+
+.calculator{
+    height: 520px;
+    width: 320px;
+    background-color: rgb(202, 198, 198);
+    margin: 0 auto;
+    top: 28px;
+    position: relative;
+    box-shadow: 21px 26px 14px -3px rgba(146,139,139,0.75);
+-webkit-box-shadow: 21px 26px 14px -3px rgba(146,139,139,0.75);
+-moz-box-shadow: 21px 26px 14px -3px rgba(146,139,139,0.75);
+}
+.inputNum{
+    height: 100px;
+    
+    background-color: #005566;
+}
+.input{
+    border: none;
+    margin-top: 20px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    text-align: left;
+    font-size: 30px;
+}
+
+.keyboard{
+    height: 400px;
+
+}
+
+
+.operator, .num{
+    width: 50px;
+    height: 50px;
+    margin: 12px;
+    float: left;
+    
+    border-width: 0px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.num{
+    background-color: rgb(202, 198, 198);
+
+}
+.operator:active,.num:active{
+    font-size: 13px;
+}
+.operator:focus,.num:focus{
+    outline: 0;
+}  
+.operator:nth-child(1){
+    background-color: #5f5e5e;
+
+}
+.operator:nth-child(2){
+    background-color: #5f5e5e;
+
+}
+.operator:nth-child(3){
+    background-color: #5f5e5e;
+
+}
+.operator:nth-child(4){
+    background-color: #5f5e5e;
+
+}
+.operator:nth-child(20){
+    background-color: #FF7733;
+
+}
